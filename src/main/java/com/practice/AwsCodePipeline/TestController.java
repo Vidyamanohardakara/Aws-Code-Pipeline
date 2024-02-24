@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/demo")
 public class TestController {
 	
-	@GetMapping("/demo")
+	@GetMapping("/data")
 	public String getData() {
 		return "Currently in AWS code Pipeline :)";
 	}
