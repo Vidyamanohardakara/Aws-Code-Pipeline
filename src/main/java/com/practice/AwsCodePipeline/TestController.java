@@ -12,5 +12,10 @@ public class TestController {
 	public String getData() {
 		return "Currently in AWS code Pipeline :)";
 	}
+	
+	@GetMapping("/pipepline")
+	public String getData2() {
+		return "Currently in new AWS code Pipeline :) :) :)";
+	}
 
 }
